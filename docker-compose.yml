@@ -47,7 +47,7 @@ services:
       - "3000:3000"
     environment:
       NODE_ENV: development
-      MONGODB_URI: mongodb+srv://gyanranjan9661:gyan7462@cluster0.qq81xhn.mongodb.net/airport-ride-pooling
+      MONGODB_URI: YOUR MONGO URL
       REDIS_HOST: redis
       REDIS_PORT: 6379
       PORT: 3000
