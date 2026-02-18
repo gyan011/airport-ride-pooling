@@ -7,15 +7,15 @@ module.exports = {
   NODE_ENV: process.env.NODE_ENV || 'development',
   
   // Database
-  MONGODB_URI: process.env.MONGODB_URI || 'mongodb://localhost:27017/airport-ride-pooling',
+  MONGODB_URI: process.env.MONGODB_URI ,
   
   // Redis
   REDIS_HOST: process.env.REDIS_HOST || 'localhost',
   REDIS_PORT: process.env.REDIS_PORT || 6379,
-  REDIS_PASSWORD: process.env.REDIS_PASSWORD || 'gyan@9661',
+  REDIS_PASSWORD: process.env.REDIS_PASSWORD  ,
   
   // JWT
-  JWT_SECRET: process.env.JWT_SECRET || 'secret@airport',
+  JWT_SECRET: process.env.JWT_SECRET,
   JWT_EXPIRE: process.env.JWT_EXPIRE || '24h',
   
   // Ride Pooling Settings
